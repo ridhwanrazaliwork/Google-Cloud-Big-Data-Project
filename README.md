@@ -89,7 +89,7 @@ Explanation of Framework Layers:
 4.	Created Google Cloud Storage Bucket
 Roles and permission were assigned to team member in IAM, providing access to resources.
  
-5.2 Data Ingestion — Google Cloud APIs & Cloud Run
+### 5.2 Data Ingestion — Google Cloud APIs & Cloud Run
 Step 1: Env Setup
 Cloud shell is used for the environment setup
 <div align="center">
@@ -291,14 +291,14 @@ Execute the Cloud Function by using below command
 curl "https://${REGION}-${PROJECT_ID}.cloudfunctions.net/download_and_upload?bucket-name=${BUCKET}"
 ```
 
-5.3 Data Storage — Google Cloud Storage (GCS)
+## 5.3 Data Storage — Google Cloud Storage (GCS)
 
 After some time in the Cloud Storage, you will see the dataset be downloaded.
 <div align="center">
   <img src="src/gcs.png" alt="GCS">
 </div>
 
-5.4 Data Transformation — Google Cloud Dataprep
+## 5.4 Data Transformation — Google Cloud Dataprep
 	For Data transformation Dataprep tool is chosen.
 The data from GCS was preprocessed using Dataprep, Dataprep provides and easy seamless connectivity to transform data from GCS and output to BigQuery for further analysis.
 The dataset was uploaded in the Dataprep environment, and data wrangling is done by adding a node called “Recipe”, a final node “Output” was added to export the dataset to BigQuery.
@@ -323,7 +323,7 @@ The output can be seen in Google BigQuery table.
 </div>
 
  
-5.5 Data Analytics — Google BigQuery
+## 5.5 Data Analytics — Google BigQuery
 
 BigQuery was used to execute SQL queries for summarizing patient records, calculating averages of key clinical indicators, and categorizing HbA1c, glucose, BMI, and diabetes status. These analytical queries provided the aggregated results required for dashboard visualization and clinical risk analysis.
 
@@ -362,7 +362,7 @@ This query analysing glucose categories across patient age groups.
   <img src="src/bq7.png" alt="GCP Framework">
 </div>
 
-5.6 Data Visualisation — Looker Studio
+## 5.6 Data Visualisation — Looker Studio
 Looker Studio dashboards were used to visualize demographic and clinical risk insights derived from BigQuery analytics.
 This dashboard page below reveals a predominantly overweight adult population with a high proportion of prediabetic and medium-risk patients, highlighting the need for early diabetes prevention and risk monitoring.
 <div align="center">
@@ -422,7 +422,7 @@ The data pipeline is efficient because queries run very quickly, with an average
  
 Figure: Data Pipeline working efficiently with 97.45% success rate
 
-7. Conclusion
+## Conclusion
 In short, all our objectives have been met.
 First, we effectively integrated BigQuery for clinical SQL analysis and Looker Studio for risk visualization.
 Second, the analysis yielded critical health insights:
