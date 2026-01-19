@@ -1,6 +1,10 @@
 # Google-Cloud-Big-Data-Project
 
 ## Overview
+
+## Acknowledgements
+This project would not have been successful without the dedication, expertise, and collaboration of my team members: Rabita Bhuiya Tanaya, Han Maliya, Wan Nurul Adibah binti Wan Tarmizi, and Su Geer. Their hard work and support were essential to completing this work.
+
 ### Team Members 
 1. Rabita Bhuiya Tanaya
 2. Han Maliya
