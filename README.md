@@ -6,10 +6,14 @@
 This project would not have been successful without the dedication, expertise, and collaboration of my team members: Rabita Bhuiya Tanaya, Han Maliya, Wan Nurul Adibah binti Wan Tarmizi, and Su Geer. Their hard work and support were essential to completing this work.
 
 ### Team Members 
-1. Rabita Bhuiya Tanaya
-2. Han Maliya
-3. Wan Nurul Adibah binti Wan Tarmizi
-4. Su Geer
+### Team Structure & Roles
+| Name | Project Role | Primary Focus Areas |
+| :--- | :--- | :--- |
+| **Ridhwan Razali** | Team Lead / Data Engineer | Project coordination, Ingestion layer (Cloud Functions) |
+| **Rabita Bhuiya Tanaya** | Data Analyst | Data transformation (Dataprep), Pipeline metrics |
+| **Han Maliya** | Cloud Data Engineer | Storage layer setup, BigQuery optimization |
+| **Wan Nurul Adibah** | BI Specialist | Looker Studio dashboards, Visualization |
+| **Su Geer** | QA / Data Analyst | Framework evaluation, Documentation |
 
 
 ### Background and Problem Statement  
